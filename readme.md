@@ -1,2 +1,2 @@
-#opusx-installer
-This is the OpusX Installer. Normally you wouldn't come here.
+### OpusX Installer
+This is the OpusX installer, ignore this repo, this is just the installer, not the CC OS. 
