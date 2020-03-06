@@ -12,7 +12,11 @@ if inputt == "install" then
 	if fs.exists("startup.lua")
 		print("Rebooting in 3 seconds")
 		sleep(3)
+		fs.remove("git")
+		fs.remove("readme.md")
+		fs.remove("installer.lua")
 		os.reboot()
+		
 	else
 		print("An unknown error has occured, is GitHub down?")
 		error("Unknown")
