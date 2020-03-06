@@ -2,14 +2,11 @@
 term.clear()
 term.setCursorPos(1,1)
 function input()
-<<<<<<< HEAD
 	term.write("OpusX Installer")
 	term.write("Type install to install.")
 	term.write("Type exit to exit.")
 	term.write(" ")
-=======
 	print("OpusX Installer, Type install to install, type exit to exit.")
->>>>>>> edf74b437d18c8dab50a4929eee612f8d7544607
 	inputt = read()
 end
 input()
