@@ -6,7 +6,6 @@ function input()
 	term.write("Type install to install.")
 	term.write("Type exit to exit.")
 	term.write(" ")
-	print("OpusX Installer, Type install to install, type exit to exit.")
 	inputt = read()
 end
 input()
