@@ -8,7 +8,7 @@ end
 input()
 if inputt == "install" then
 	shell.run("git https://github.com/BDragonCC/OpusX.git")
-	fs.move("OpusX/*", "/*")
+	fs.move("OpusX/*", "/*") then
 	if fs.exists("startup.lua")
 		print("Rebooting in 3 seconds")
 		sleep(3)
@@ -16,7 +16,6 @@ if inputt == "install" then
 		fs.remove("readme.md")
 		fs.remove("installer.lua")
 		os.reboot()
-
 	else
 		print("An unknown error has occured, is GitHub down?")
 		error("Unknown")
