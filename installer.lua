@@ -8,8 +8,8 @@ end
 input()
 if inputt == "install" then
 	shell.run("git https://github.com/BDragonCC/OpusX.git")
-	fs.move("OpusX/*", "/*") then
-	if fs.exists("startup.lua")
+	fs.move("OpusX/*", "/*") 
+	if fs.exists("startup.lua") then
 		print("Rebooting in 3 seconds")
 		sleep(3)
 		fs.remove("git")
