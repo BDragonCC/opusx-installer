@@ -2,7 +2,7 @@
 term.clear()
 term.setCursorPos(1,1)
 function input()
-	term.write("OpusX Installer, Type install to install, type exit to exit.")
+	print("OpusX Installer, Type install to install, type exit to exit.")
 	inputt = read()
 end
 input()
